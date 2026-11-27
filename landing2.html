@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Manage your inventory, track orders and grow your business with Stockflow.">
+    <title>StockTrack — Inventory made simple</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="landing2.css">
+</head>
+
+<body>
+
+    <!-- NAVIGATION -->
+    <header class="header">
+        <div class="container nav-container">
+
+            <a href="#" class="logo">
+                <span class="logo-icon">✳</span>
+               <span class="logo-text" style="color: black;  font-size: 23px; font-weight: bold;">Stock<span style="color: #8b5cf6;">Track</span></span>
+            </a>
+
+            <nav class="nav-links" id="navLinks">
+                <a href="#features">Features</a>
+                <a href="#dashboard">Overview</a>
+                <a href="#how-it-works">How it works</a>
+                <a href="#about">About</a>
+            </nav>
+
+            <div class="nav-actions">
+                <button class="theme-btn" id="themeBtn" aria-label="Toggle theme">☾</button>
+                <a href="#contact" class="btn btn-primary nav-cta">Get started →</a>
+                <button class="menu-btn" id="menuBtn" aria-label="Open navigation">☰</button>
+            </div>
+
+        </div>
+    </header>
+
+
+    <main>
+
+        <!-- HERO SECTION -->
+        <section class="hero">
+            <div class="hero-glow"></div>
+
+            <div class="container hero-grid">
+
+                <div class="hero-content">
+
+                    <div class="announcement">
+                        <span>NEW</span>
+                        A smarter way to manage your business →
+                    </div>
+
+                    <h1>
+                        Your business,
+                        <br>
+                        <span>under control.</span>
+                    </h1>
+
+                    <p class="hero-description">
+                        Take control of your inventory, track every order
+                        and understand your business performance — all
+                        from one simple platform.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary">
+                            Get started for free →
+                        </a>
+
+                        <a href="#dashboard" class="btn btn-secondary">
+                            Explore platform
+                        </a>
+                    </div>
+
+                    <div class="hero-trust">
+                        <div class="trust-icon">✓</div>
+                        <p>
+                            Everything your business needs.
+                            <strong>All in one place.</strong>
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <!-- DASHBOARD PREVIEW -->
+                <div class="hero-visual" id="dashboard">
+
+                    <div class="dashboard-window">
+
+                        <div class="dashboard-top">
+                            <div class="window-dots">
+                                <i></i><i></i><i></i>
+                            </div>
+                            <span>StockTrack.app/dashboard</span>
+                        </div>
+
+                        <div class="dashboard-content">
+
+                            <div class="dashboard-heading">
+                                <div>
+                                    <small>Welcome back, Admin</small>
+                                    <h3>Business overview</h3>
+                                </div>
+                                <span class="date-tag">This month</span>
+                            </div>
+
+                            <div class="overview-cards">
+
+                                <div class="overview-card">
+                                    <small>Total products</small>
+                                    <h3>1,284</h3>
+                                    <span class="positive">↗ 12.5%</span>
+                                </div>
+
+                                <div class="overview-card">
+                                    <small>Total orders</small>
+                                    <h3>356</h3>
+                                    <span class="positive">↗ 8.2%</span>
+                                </div>
+
+                                <div class="overview-card">
+                                    <small>Revenue</small>
+                                    <h3>₦2.4M</h3>
+                                    <span class="positive">↗ 18.4%</span>
+                                </div>
+
+                            </div>
+
+                            <div class="chart-box">
+                                <div class="chart-heading">
+                                    <div>
+                                        <small>Business performance</small>
+                                        <h3>Sales overview</h3>
+                                    </div>
+                                    <span>Last 12 Months</span>
+                                </div>
+
+                                <div class="chart">
+                                    <div class="chart-bar" style="height:40%"></div>
+                                    <div class="chart-bar" style="height:65%"></div>
+                                    <div class="chart-bar" style="height:48%"></div>
+                                    <div class="chart-bar" style="height:85%"></div>
+                                    <div class="chart-bar" style="height:58%"></div>
+                                    <div class="chart-bar" style="height:95%"></div>
+                                    <div class="chart-bar" style="height:72%"></div>
+                                    <div class="chart-bar" style="height:28%"></div>
+                                    <div class="chart-bar" style="height:30%"></div>
+                                    <div class="chart-bar" style="height:49%"></div>
+                                    <div class="chart-bar" style="height:58%"></div>
+                                    <div class="chart-bar" style="height:62%"></div>
+                                </div>
+
+                                <div class="chart-labels">
+                                    <span>Jan</span>
+                                    <span>Feb</span>
+                                    <span>Mar</span>
+                                    <span>Apr</span>
+                                    <span>May</span>
+                                    <span>Jun</span>
+                                    <span>Jul</span>
+                                    <span>Aug</span>
+                                    <span>Sep</span>
+                                    <span>Oct</span>
+                                    <span>Nov</span>
+                                    <span>Dec</span>
+                                </div>
+                            </div>
+
+                            <div class="recent-orders">
+                                <div class="recent-heading">
+                                    <h4>Recent orders</h4>
+                                    <span>View all →</span>
+                                </div>
+
+                                <div class="order-row">
+                                    <span>Wireless Headphones</span>
+                                    <b>₦45,000</b>
+                                    <span class="status delivered">Successfull</span>
+                                </div>
+
+                                <div class="order-row">
+                                    <span>Smart Watch</span>
+                                    <b>₦32,000</b>
+                                    <span class="status pending">Pending</span>
+                                </div>
+
+                                <div class="order-row">
+                                    <span>Bluetooth Speaker</span>
+                                    <b>₦28,500</b>
+                                    <span class="status delivered">Successfull</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="floating-card">
+                        <span>✦</span>
+                        Inventory updated successfully
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- TRUST STRIP -->
+        <section class="trust-section">
+            <div class="container">
+                <p>BUILT FOR BUSINESSES THAT WANT TO GROW</p>
+
+                <div class="trust-items">
+                    <span>Retail stores</span>
+                    <span>Online businesses</span>
+                    <span>Wholesalers</span>
+                    <span>Distributors</span>
+                    <span>Small businesses</span>
+                </div>
+            </div>
+        </section>
+
+         <!-- WAREHOUSE SHOWCASE -->
+          <section class="divider">
+<div class="warehouse-showcase ">
+    <img
+        src="stockflow-warehouse.png"
+        alt="A business employee managing warehouse inventory with a tablet"
+        class="warehouse-image"
+    >
+
+    <div class="warehouse-overlay">
+        <div class="warehouse-content">
+            <span class="warehouse-label">BUILT FOR REAL BUSINESSES</span>
+            <h2>Every product.<br>Every order.<br><em>Under control.</em></h2>
+            <p>
+                Take control of your stock, track every movement
+                and keep your business running smoothly.
+            </p>
+        </div>
+    </div>
+</div>
+</section>
+
+        <!-- FEATURES -->
+        <section class="section" id="features">
+
+            <div class="container">
+
+                <div class="section-heading">
+                    <div>
+                        <p class="eyebrow">WHAT YOU CAN DO</p>
+                        <h2>Everything connected.<br>
+                            <em>Nothing overlooked.</em>
+                        </h2>
+                    </div>
+
+                    <p>
+                        Stop juggling spreadsheets and disconnected tools.
+                        Get a clearer picture of your entire business from
+                        one central workspace.
+                    </p>
+                </div>
+
+
+                <div class="feature-grid">
+
+                    <article class="feature-card">
+                        <div class="feature-icon">▦</div>
+                        <span class="feature-number">01</span>
+                        <h3>Inventory management</h3>
+                        <p>
+                            Organize products, update quantities and
+                            know exactly what is available in your store.
+                        </p>
+                        <a href="#contact">Explore feature ↗</a>
+                    </article>
+
+
+                    <article class="feature-card">
+                        <div class="feature-icon">↗</div>
+                        <span class="feature-number">02</span>
+                        <h3>Order tracking</h3>
+                        <p>
+                            Monitor orders from creation to completion.
+                            Never lose track of a customer's purchase.
+                        </p>
+                        <a href="#contact">Explore feature ↗</a>
+                    </article>
+
+
+                    <article class="feature-card">
+                        <div class="feature-icon">▤</div>
+                        <span class="feature-number">03</span>
+                        <h3>Sales analytics</h3>
+                        <p>
+                            Understand your sales, revenue and business
+                            performance through clear visual reports.
+                        </p>
+                        <a href="#contact">Explore feature ↗</a>
+                    </article>
+
+
+                    <article class="feature-card">
+                        <div class="feature-icon">♧</div>
+                        <span class="feature-number">04</span>
+                        <h3>Customer management</h3>
+                        <p>
+                            Keep customer information organized and
+                            make it easier to manage your relationships.
+                        </p>
+                        <a href="#contact">Explore feature ↗</a>
+                    </article>
+
+
+                    <article class="feature-card">
+                        <div class="feature-icon">♧</div>
+                        <span class="feature-number">05</span>
+                        <h3>Low-stock alerts</h3>
+                        <p>
+                            Stay ahead of shortages with stock-level
+                            monitoring and timely notifications.
+                        </p>
+                        <a href="#contact">Explore feature ↗</a>
+                    </article>
+
+
+                    <article class="feature-card">
+                        <div class="feature-icon">▧</div>
+                        <span class="feature-number">06</span>
+                        <h3>Invoices and reports</h3>
+                        <p>
+                            Keep transaction records organized and
+                            generate useful business reports.
+                        </p>
+                        <a href="#contact">Explore feature ↗</a>
+                    </article>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- DASHBOARD SHOWCASE -->
+        <section class="section showcase" id="about">
+
+            <div class="container showcase-grid">
+
+                <div class="showcase-content">
+
+                    <p class="eyebrow">YOUR BUSINESS AT A GLANCE</p>
+
+                    <h2>
+                        See the bigger picture.
+                        <em>Make better decisions.</em>
+                    </h2>
+
+                    <p>
+                        Your business generates valuable information
+                        every day. StockTrack helps you turn that
+                        information into insights you can actually use.
+                    </p>
+
+                    <ul class="benefit-list">
+                        <li>✓ Monitor stock levels in real time</li>
+                        <li>✓ Understand your best-selling products</li>
+                        <li>✓ Track pending and completed orders</li>
+                        <li>✓ Identify business trends</li>
+                    </ul>
+
+                    <a href="#contact" class="btn btn-primary">
+                        Take control of your business →
+                    </a>
+
+                </div>
+
+
+                <div class="analytics-card">
+
+                    <div class="analytics-heading">
+                        <div>
+                            <small>Inventory insights</small>
+                            <h3>Stock distribution</h3>
+                        </div>
+                        <span>Monthly</span>
+                    </div>
+
+                    <div class="distribution">
+
+                        <div class="distribution-item">
+                            <div>
+                                <span class="dot blue"></span>
+                                Available stock
+                            </div>
+                            <b>68%</b>
+                        </div>
+
+                        <div class="progress">
+                            <span style="width:68%"></span>
+                        </div>
+
+                        <div class="distribution-item">
+                            <div>
+                                <span class="dot violet"></span>
+                                Low stock
+                            </div>
+                            <b>22%</b>
+                        </div>
+
+                        <div class="progress">
+                            <span class="violet-fill" style="width:22%"></span>
+                        </div>
+
+                        <div class="distribution-item">
+                            <div>
+                                <span class="dot orange"></span>
+                                Out of stock
+                            </div>
+                            <b>10%</b>
+                        </div>
+
+                        <div class="progress">
+                            <span class="orange-fill" style="width:10%"></span>
+                        </div>
+
+                    </div>
+
+                    <div class="insight-note">
+                        <span>✦</span>
+                        Keep an eye on products running low.
+                        Stay prepared before stock runs out.
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- HOW IT WORKS -->
+        <section class="section" id="how-it-works">
+
+            <div class="container">
+
+                <div class="center-heading">
+                    <p class="eyebrow">GETTING STARTED</p>
+                    <h2>Simple from <em>day one.</em></h2>
+                    <p>
+                        No complicated setup. Just a better way
+                        to run your business.
+                    </p>
+                </div>
+
+
+                <div class="steps-grid">
+
+                    <div class="step">
+                        <span class="step-number">01</span>
+                        <div class="step-icon">♙</div>
+                        <h3>Create your account</h3>
+                        <p>
+                            Set up your business workspace and
+                            get ready to organize your operations.
+                        </p>
+                    </div>
+
+                    <div class="step">
+                        <span class="step-number">02</span>
+                        <div class="step-icon">▦</div>
+                        <h3>Add your products</h3>
+                        <p>
+                            Organize your products, enter stock
+                            quantities and keep everything updated.
+                        </p>
+                    </div>
+
+                    <div class="step">
+                        <span class="step-number">03</span>
+                        <div class="step-icon">↗</div>
+                        <h3>Manage and grow</h3>
+                        <p>
+                            Track orders, monitor sales and
+                            make smarter business decisions.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- CTA -->
+        <section class="section cta-section" id="contact">
+
+            <div class="container">
+
+                <div class="cta-box">
+
+                    <div class="cta-glow"></div>
+
+                    <div class="cta-content">
+                        <p class="eyebrow light">READY FOR A BETTER WAY?</p>
+
+                        <h2>
+                            Your business deserves
+                            <em>better tools.</em>
+                        </h2>
+
+                        <p>
+                            Bring your products, orders and business
+                            insights together. Start building a more
+                            organized business today.
+                        </p>
+
+                        <a href="mailto:hello@stockflow.com"
+                           class="btn cta-btn">
+                            Get started today →
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <div class="container footer-content">
+
+            <div>
+                <a href="#" class="logo">
+                    <span class="logo-icon">✳</span>
+                  <span class="logo-text" style="color: black;  font-size: 23px; font-weight: bold;">Stock<span style="color: #8b5cf6;">Track</span></span>
+                </a>
+
+                <p>
+                    Less chaos. More control.<br>
+                    Better business.
+                </p>
+            </div>
+
+            <div class="footer-links">
+                <a href="#features">Features</a>
+                <a href="#dashboard">Overview</a>
+                <a href="#how-it-works">How it works</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+        </div>
+
+        <div class="container footer-bottom">
+            <p>© 2026 Stockflow. All rights reserved.</p>
+            <span>Built for better business.</span>
+        </div>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
